@@ -1,3 +1,5 @@
+![Docker Image CI](https://github.com/prabhakarpujeri/hello-world-docker-action/workflows/Docker%20Image%20CI/badge.svg)
+
 # Hello world docker action
 
 This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
