@@ -37,12 +37,5 @@ jobs:
         platforms: linux/amd64,linux/arm64
     - name: Image digest
       run: echo ${{ steps.docker_build.outputs.digest }}
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - name: Setup Python environment
-      uses: actions/setup-python@v1.1.1
-    - name: Run unit tests
-      run: python -v
+  
       
